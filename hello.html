@@ -2,15 +2,30 @@
 <html>
 
 <head>
-    <title>JavaScript Hello World</title>
+    <title>JavaScript tryhard</title>
 </head>
 
 
 <body>
-    <h1>A JavaScript Hello, World!</h1>
+    <h1>I need help!</h1>
 
     <script>
-// your code goes here
+ 		document.write("Hello World");
+	var age = parseInt(prompt("What is your age?"));
+	var lucky_num = parseInt(prompt("What is your lucky number?"));
+	var favfruit = parseInt(prompt("Which fruit is your favorite?"));
+	var favsubject = parseInt(prompt("Which subject is your favorite?"));
+	
+	var birthyear =parseInt(2019 - age);
+
+	var raminer = String(birthyear % lucky_num);
+	document.write("<br>")
+	document.write("the raminer of your <br> " + raminer);
+	document.write("\n");
+	document.write(birthyear);
+	
+
+
     </script>
 </body>
 
